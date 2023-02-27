@@ -1,0 +1,65 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+ 
+}
+.App {
+  text-align: center;
+}
+.soft {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(palevioletred,white, palevioletred);
+
+  /* position: fixed;
+  width: 100vw; */
+}
+.soft ul {
+  
+
+  display: flex;
+  gap: 2rem;
+  font-size: 20px;
+}
+
+.images {
+  width: 18rem;
+  height: 20rem;
+}
+
+.innerdata {
+  margin-left: 1rem;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.details {
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+}
+.details span {
+  color: pink ;
+}
+.shop span {
+  color: palevioletred;
+  font-size: 40px;
+  font-family: fantasy;
+  font-style: italic;
+  font-weight: 900;
+}
+.link li:hover{
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+button{
+  background: linear-gradient(white, palevioletred);
+  color: black;
+  width: 10rem;
+  height: 40px;
+  border-radius: 5px;
+  border: linear-gradient(palevioletred,white, palevioletred);;
+  border: none;
+}
+
